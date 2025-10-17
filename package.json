@@ -1,0 +1,44 @@
+{
+  "name": "react-lab-ui",
+  "version": "0.1.0",
+  "description": "Reusable React UI components for scientific laboratory applications",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./ButtonToggle": "./src/ButtonToggle.jsx",
+    "./Card": "./src/Card.jsx",
+    "./CardGrid": "./src/CardGrid.jsx",
+    "./ConnectionControl": "./src/ConnectionControl.jsx",
+    "./ConnectionIndicator": "./src/ConnectionIndicator.jsx",
+    "./FiducialList": "./src/FiducialList.jsx",
+    "./Modal": "./src/Modal.jsx",
+    "./ParameterControl": "./src/ParameterControl.jsx",
+    "./ParameterDisplay": "./src/ParameterDisplay.jsx",
+    "./ParameterInput": "./src/ParameterInput.jsx",
+    "./StatusIndicator": "./src/StatusIndicator.jsx",
+    "./TabGroup": "./src/TabGroup.jsx"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@material-tailwind/react": "^2.1.0",
+    "@mui/icons-material": "^7.0.0",
+    "@mui/material": "^7.0.0"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "laboratory",
+    "scientific",
+    "instrumentation",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-lab-ui.git"
+  }
+}
