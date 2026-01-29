@@ -1,11 +1,12 @@
 {
   "name": "react-lab-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reusable React UI components for scientific laboratory applications",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js",
+    "./Button": "./src/Button.jsx",
     "./ButtonToggle": "./src/ButtonToggle.jsx",
     "./Card": "./src/Card.jsx",
     "./CardGrid": "./src/CardGrid.jsx",
@@ -16,6 +17,8 @@
     "./ParameterControl": "./src/ParameterControl.jsx",
     "./ParameterDisplay": "./src/ParameterDisplay.jsx",
     "./ParameterInput": "./src/ParameterInput.jsx",
+    "./ServiceCard": "./src/ServiceCard.jsx",
+    "./StatusDot": "./src/StatusDot.jsx",
     "./StatusIndicator": "./src/StatusIndicator.jsx",
     "./TabGroup": "./src/TabGroup.jsx"
   },

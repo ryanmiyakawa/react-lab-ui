@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ConnectionIndicator from './ConnectionIndicator.jsx';
 
 /**
@@ -151,7 +151,7 @@ const ParameterInput = ({
             </div>
           )}
           {label && (
-            <label className="text-sm font-medium text-gray-300 mb-1 font-sans">
+            <label className="block text-left text-sm font-medium text-gray-300 mb-1 font-sans pl-4">
               {label}
             </label>
           )}
@@ -173,7 +173,7 @@ const ParameterInput = ({
       return (
         <div className={widthClass ?? 'max-w-xs'}>
           {label && (
-            <label className="text-sm font-medium text-gray-300 mb-1 font-sans flex items-center space-x-2">
+            <label className="text-left text-sm font-medium text-gray-300 mb-1 font-sans flex items-center gap-2">
               {showConnectionIndicator && isConnected !== null && (
                 <ConnectionIndicator isConnected={isConnected} isHomed={isHomed} isMoving={isMoving} size="w-2 h-2" />
               )}
@@ -215,7 +215,7 @@ const ParameterInput = ({
       return (
         <div className={widthClass ?? 'max-w-xs'}>
           {label && (
-            <label className="text-sm font-medium text-gray-300 mb-1 font-sans flex items-center space-x-2">
+            <label className="text-left text-sm font-medium text-gray-300 mb-1 font-sans flex items-center gap-2">
               {showConnectionIndicator && isConnected !== null && (
                 <ConnectionIndicator isConnected={isConnected} isHomed={isHomed} isMoving={isMoving} size="w-2 h-2" />
               )}

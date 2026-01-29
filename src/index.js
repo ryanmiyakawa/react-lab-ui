@@ -4,10 +4,13 @@
  */
 
 // Core UI Components
+export { default as Button, ButtonGroup, IconButton } from './Button.jsx';
 export { default as ButtonToggle } from './ButtonToggle.jsx';
 export { default as Card } from './Card.jsx';
 export { default as CardGrid } from './CardGrid.jsx';
 export { default as Modal } from './Modal.jsx';
+export { default as ServiceCard, ServiceCardCompact } from './ServiceCard.jsx';
+export { default as StatusDot, StatusDotGroup } from './StatusDot.jsx';
 export { default as StatusIndicator } from './StatusIndicator.jsx';
 export { default as TabGroup } from './TabGroup.jsx';
 

@@ -1,9 +1,10 @@
-import { useState } from 'react';
-import StopIcon from '@mui/icons-material/Stop';
-import HomeIcon from '@mui/icons-material/Home';
+import React, { useState } from 'react';
+
 import ParameterInput from './ParameterInput.jsx';
 import ConnectionIndicator from './ConnectionIndicator.jsx';
 import Modal from './Modal.jsx';
+import StopIcon from '@mui/icons-material/Stop';
+import HomeIcon from '@mui/icons-material/Home';
 
 const ParameterControl = ({
   device, // State slice representing device, e.g. Grating.X
@@ -251,7 +252,7 @@ const ParameterControl = ({
         />
       </div>
       {showLabel && (
-        <div className={`p-0 mx-1 ${widthNameClass} ${labelColorClass} text-right font-medium text-lg`}>
+        <div className={`p-0 ml-6 mr-1 ${widthNameClass} ${labelColorClass} text-left font-medium text-lg`}>
           {label}
         </div>
       )}
