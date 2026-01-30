@@ -262,7 +262,7 @@ const ParameterControl = ({
       </div>
   
       {showSetPositionField && (
-        <div className="mx-2">
+        <div className="mx-2 w-24">
           <ParameterInput
             id="target"
             label=""
